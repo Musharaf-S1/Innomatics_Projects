@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Electricity Bill Calculator</h1>
+    <form id="electricity-form">
+        <label for="units-consumed">Units Consumed:</label>
+        <input type="number" id="units-consumed" required>
+        <br>
+        <label for="tariff">Tariff:</label>
+        <select id="tariff" required>
+            <option value="">Select Tariff</option>
+            <option value="Residential">Residential</option>
+            <option value="Commercial">Commercial</option>
+            <option value="Industrial">Industrial</option>
+        </select>
+        <br>
+        <button id="calculate-bill-btn">Calculate Electricity Bill</button>
+    </form>
+    <p id="electricity-bill"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

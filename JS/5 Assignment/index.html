@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Pricing with Time and Age Discount</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Movie Ticket Pricing with Time and Age Discount</h1>
+    <form id="ticket-form">
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+        <br>
+        <label for="show-time">Show Time:</label>
+        <select id="show-time" required>
+            <option value="">Select Show Time</option>
+            <option value="Morning">Morning (before 12pm)</option>
+            <option value="Afternoon">Afternoon (12pm-5pm)</option>
+            <option value="Evening">Evening (after 5pm)</option>
+        </select>
+        <br>
+        <button id="calculate-price-btn">Calculate Ticket Price</button>
+    </form>
+    <p id="ticket-price"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

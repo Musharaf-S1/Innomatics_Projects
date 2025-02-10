@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result, #score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
